@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #2c3e50;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #7f8c8d;
+}
+
+.install-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    transition: background-color 0.3s;
+}
+
+.install-button:hover {
+    background-color: #2980b9;
+}
+
+.benefits, .screenshots {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.benefits h2, .screenshots h2 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+.benefits ul {
+    list-style: none;
+    padding: 0;
+}
+
+.benefits li {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+.benefits li::before {
+    content: "✔";
+    color: #3498db;
+    margin-right: 10px;
+}
+
+.screenshots p {
+    text-align: center;
+    color: #7f8c8d;
+}
+
+.screenshot {
+    display: block;
+    max-width: 100%;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    font-size: 0.9em;
+}
+
+footer a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
