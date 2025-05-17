@@ -1,0 +1,43 @@
+{
+  "extensionName": {
+    "message": "Lembrete de Saúde",
+    "description": "Nome da extensão"
+  },
+  "extensionDescription": {
+    "message": "Lembra de levantar, tomar água e ir ao banheiro de tempos em tempos.",
+    "description": "Descrição da extensão"
+  },
+  "popupTitle": {
+    "message": "Lembrete de Saúde",
+    "description": "Título do popup"
+  },
+  "intervalLabel": {
+    "message": "Intervalo (minutos):",
+    "description": "Rótulo do campo de intervalo"
+  },
+  "saveButton": {
+    "message": "Salvar",
+    "description": "Texto do botão salvar"
+  },
+  "saveSuccess": {
+    "message": "Intervalo salvo: $MINUTES$ minutos",
+    "description": "Mensagem de sucesso ao salvar",
+    "placeholders": {
+      "minutes": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidInterval": {
+    "message": "Por favor, insira um intervalo válido.",
+    "description": "Mensagem de erro para intervalo inválido"
+  },
+  "notificationTitle": {
+    "message": "Hora de Cuidar de Você!",
+    "description": "Título da notificação"
+  },
+  "notificationMessage": {
+    "message": "Levante-se, tome água e, se precisar, vá ao banheiro!",
+    "description": "Mensagem da notificação"
+  }
+}

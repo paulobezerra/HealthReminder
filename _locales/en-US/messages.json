@@ -1,0 +1,43 @@
+{
+  "extensionName": {
+    "message": "Health Reminder",
+    "description": "Extension name"
+  },
+  "extensionDescription": {
+    "message": "Reminds you to stand up, drink water, and use the bathroom if needed.",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "Health Reminder",
+    "description": "Popup title"
+  },
+  "intervalLabel": {
+    "message": "Interval (minutes):",
+    "description": "Label for interval input"
+  },
+  "saveButton": {
+    "message": "Save",
+    "description": "Save button text"
+  },
+  "saveSuccess": {
+    "message": "Interval saved: $MINUTES$ minutes",
+    "description": "Success message for saving interval",
+    "placeholders": {
+      "minutes": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidInterval": {
+    "message": "Please enter a valid interval.",
+    "description": "Error message for invalid interval"
+  },
+  "notificationTitle": {
+    "message": "Time to Take Care of Yourself!",
+    "description": "Notification title"
+  },
+  "notificationMessage": {
+    "message": "Stand up, drink water, and use the bathroom if needed!",
+    "description": "Notification message"
+  }
+}
